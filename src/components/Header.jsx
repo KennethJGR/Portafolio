@@ -12,15 +12,14 @@ const Header = () => {
         <h1>Kenneth Gaitán </h1>
         <h5 className="text-light">Fullstack Developer</h5>
         <CTA />
-
+        <HeaderSocials />
         <div className="me">
           <img src={me} alt="photo-me" className="" />
         </div>
 
-        <a href="#contact" className="scroll-down">
+        <a href="#contact" className="scroll_down">
           scroll down
         </a>
-        <HeaderSocials />
       </div>
     </header>
   );
