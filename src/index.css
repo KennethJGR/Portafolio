@@ -58,12 +58,13 @@ h1 {
     font-size: 3.5rem;
 }
 
-h5{
+h5 {
     font-size: 1.2rem;
 }
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section>h2,
@@ -82,7 +83,6 @@ section>h2 {
 }
 
 a {
-  
     color: var(--color-primary);
     transition: var(--transition);
 }

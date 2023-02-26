@@ -5,7 +5,14 @@ import styles from '../styles/about.css'
 
 const About = () => {
   return (
-    <div>About</div>
+    <section
+    id='about'
+    >
+
+        <div>
+
+        </div>
+    </section>
   )
 }
 
