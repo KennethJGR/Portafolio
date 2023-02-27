@@ -3,6 +3,7 @@ import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import styles from "../styles/header.css";
 import me from "../assets/me.jpeg";
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -18,7 +19,8 @@ const Header = () => {
         </div>
 
         <a href="#contact" className="scroll_down">
-          scroll down
+          
+        <BsFillArrowDownCircleFill />
         </a>
       </div>
     </header>

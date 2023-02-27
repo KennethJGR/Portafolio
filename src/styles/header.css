@@ -56,11 +56,9 @@ header {
 /**************/
 .scroll_down {
     position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 1.4rem;
+    right: -2rem;
+    bottom: 4rem;
+    font-size: 2.3rem;
 }
 
 /***Medium devices (tablets, 1024px and up)****/
