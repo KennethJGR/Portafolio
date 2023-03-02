@@ -3,6 +3,8 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { AiOutlineMessage } from "react-icons/ai";
+import {HiOutlineBriefcase} from "react-icons/hi";
+
 import { useState } from "react";
 
 const Nav = () => {
@@ -39,12 +41,20 @@ const Nav = () => {
         <RiServiceLine />
       </a>
       <a
+        href="#portafolio"
+        onClick={() => setNav("#portafolio")}
+        className={nav === "#portafolio" ? "active" : ""}
+      >
+        <HiOutlineBriefcase />
+      </a>
+      <a
         href="#contact"
         onClick={() => setNav("#contact")}
         className={nav === "#contact" ? "active" : ""}
       >
         <AiOutlineMessage />
       </a>
+     
     </nav>
   );
 };

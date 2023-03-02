@@ -28,7 +28,7 @@ const Experience = () => {
         <div className="experience__front">
           <h3>Frontend Development</h3>
           <div className="experience_text">
-            <article className="experience_details">
+          <article className="experience_details">
               <SiReact className="experience_icon" />
               <h4>ReactJS</h4>
             </article>
