@@ -23,7 +23,7 @@
 }
 
 .portafolio__item:hover {
-    transform: scale(1.10);
+    transform: scale(1.1);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
 }
 
@@ -46,17 +46,15 @@
         transform: scale(1.05);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     }
-    
-
 }
-    
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width:  600px) {
     .portafolio__container {
-        grid-template-columns: repeat(1, 1fr);
-       gap: 1rem;
+        grid-template-columns: 1fr;
+        gap: 1rem;
     }
 
-    .portafolio__item:hover{
+    .portafolio__item:hover {
         transform: scale(1.02);
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
     }

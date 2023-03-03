@@ -18,7 +18,7 @@ const Header = () => {
           <img src={me} alt="photo-me" className="" />
         </div>
 
-        <a href="#contact" className="scroll_down">
+        <a href="#footer" className="scroll_down">
           
         <BsFillArrowDownCircleFill />
         </a>
