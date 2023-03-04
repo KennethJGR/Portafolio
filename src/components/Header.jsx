@@ -19,8 +19,7 @@ const Header = () => {
         </div>
 
         <a href="#footer" className="scroll_down">
-          
-        <BsFillArrowDownCircleFill />
+          <BsFillArrowDownCircleFill />
         </a>
       </div>
     </header>
