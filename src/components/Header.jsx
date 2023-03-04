@@ -2,7 +2,7 @@ import React from "react";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import styles from "../styles/header.css";
-import me from "../assets/me.jpeg";
+import me from "../assets/Kenneth.png";
 import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 const Header = () => {
