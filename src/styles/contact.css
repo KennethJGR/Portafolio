@@ -39,6 +39,8 @@
     .contact__cards {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
+        width: auto;
+        margin: 7rem auto;
     }
 
     .contact__card:hover {
