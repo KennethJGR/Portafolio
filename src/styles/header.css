@@ -84,6 +84,13 @@ header {
         font-size: 2rem;
     }
 
+    .me {
+       
+        width: 18rem;
+        height: auto;
+        left: calc(50% - 9rem);
+    }
+
     .header__socials,
     .scroll_down {
         display: none;
