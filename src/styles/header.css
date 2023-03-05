@@ -85,10 +85,9 @@ header {
     }
 
     .me {
-       
-        width: 18rem;
+        width: 15rem;
         height: auto;
-        left: calc(50% - 9rem);
+        left: calc(50% - 7rem);
     }
 
     .header__socials,
