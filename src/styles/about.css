@@ -47,7 +47,7 @@
 .about__card:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
-    cursor: pointer;
+    cursor: default;
 }
 
 .about__card__icon {

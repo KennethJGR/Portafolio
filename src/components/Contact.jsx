@@ -12,32 +12,34 @@ const Contact = () => {
         <div className="contact__text">
           <div className="contact__cards">
             <article className="contact__card">
-              <SiGmail className="contact__card__icon" />
-              <h5>Gmail</h5>
-              <a href="mailto: gaitan.kj@gmail.com">Send a mail</a>
+              <a href="mailto: gaitan.kj@gmail.com">
+                <SiGmail className="contact__card__icon" />
+                <h5>Gmail</h5>
+                <p>Send a mail</p>
+              </a>
             </article>
 
             <article className="contact__card">
-              <SiWhatsapp className="contact__card__icon" />
-              <h5>WhatsApp</h5>
               <a href="https://wa.me/50558652270" target="_blank">
-                Send a message
+                <SiWhatsapp className="contact__card__icon" />
+                <h5>WhatsApp</h5>
+                <p>Send a message</p>
               </a>
             </article>
 
             <article className="contact__card">
-              <SiLinkedin className="contact__card__icon" />
-              <h5>LinkedIn</h5>
               <a href="https://linkedin.com/in/gaitan-kj" target="_blank">
-                Contact me
+                <SiLinkedin className="contact__card__icon" />
+                <h5>LinkedIn</h5>
+                <p>Contact me</p>
               </a>
             </article>
 
             <article className="contact__card">
-              <SiGithub className="contact__card__icon" />
-              <h5> Github </h5>
               <a href="https://github.com/KennethJGR" target="_blank">
-                Contact me
+                <SiGithub className="contact__card__icon" />
+                <h5> Github </h5>
+                <p>Contact me</p>
               </a>
             </article>
           </div>

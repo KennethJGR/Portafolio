@@ -1,8 +1,9 @@
 .contact__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 3rem;
-    margin: 2rem 0;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    width: max-content;
+    margin: 7rem auto;
 }
 
 .contact__card {
@@ -15,6 +16,10 @@
     padding: 4rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
     transition: var(--transition);
+}
+
+.contact__card h5 {
+    color: var(--color-white);
 }
 
 .contact__card:hover {
