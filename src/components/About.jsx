@@ -28,21 +28,19 @@ const About = () => {
 
             <article className="about__card">
               <TbWorld className="about__card__icon" />
-              <h5>Experience</h5>
-              <small>Clients asdasdasdasd</small>
+              <h5>Socials</h5>
+              <small>LinkedIn, Github.</small>
             </article>
 
             <article className="about__card">
               <RiComputerLine className="about__card__icon" />
-              <h5>Experience</h5>
-              <small>1+ Years</small>
+              <h5>Enthusiasm</h5>
+              <small>Web Development</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            voluptas, quod, quia, voluptates quae voluptatibus voluptas, quod,
-            quia, voluptates quae voluptatibus
+          Fullstack Developer with expertise in React. Passionate about creating high-quality, user-friendly web experiences. Constantly seeking to learn and grow in the ever-evolving world of web development.
           </p>
 
           <a href="#contact" className="btn btn-primary">
