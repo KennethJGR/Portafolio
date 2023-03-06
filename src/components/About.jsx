@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/about.css";
-import me from "../assets/killua.png";
+import me from "../assets/prog.png";
 import { FaAward } from "react-icons/fa";
 import { RiComputerLine } from "react-icons/ri";
 import { TbWorld } from "react-icons/tb";
