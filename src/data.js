@@ -11,7 +11,7 @@ const data = [
         image: portfolio,
         title: "My Portfolio",
         github: "https://github.com/KennethJGR/Portafolio",
-        demo: "https://kennethgaitanportafolio.netlify.app/",
+        demo: "https://kennethgaitanportfolio.netlify.app/",
     },
     {
         id: 2,
